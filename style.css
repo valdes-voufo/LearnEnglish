@@ -1,0 +1,39 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: "Comic Sans MS" ,serif ;
+}
+
+.main{
+    background: #1E7DC1;
+    width: 1000px;
+    height: 900px;
+    border-radius: 7px;
+}
+
+.inner-main{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea  {
+
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: "Comic Sans MS", serif;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+}
+
+label{
+    font-size: 20px;
+    font-family: "Comic Sans MS", serif;
+}
